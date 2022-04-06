@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class QuadraticEq {
 
 	public static void main(String[] args) {
-		Scanner 입력받기=new Scanner(System.in); //대,소문자 다 구별해서 써야되네..
-		//new Scanner를 이 class에서는 "입력받기"라고 써봐야겠다.
+		Scanner 입력받기=new Scanner(System.in);
+		
 		System.out.println("2차방정식에서 b값과 c값을 입력해주세요.");
 		float fb=입력받기.nextFloat();
 		float fc=입력받기.nextFloat();

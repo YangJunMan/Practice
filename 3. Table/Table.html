@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>table practice</title>
+        <meta charset="UTF-8">
+        <meta keyword="table, practice">
+        <meta description="practice table">
+        <meta authors="양준혁">
+    </head>
+
+    <h3>표의 구조적인 표현</h3>
+
+        <table border="1">
+          <caption>과목별 추천도서</caption>
+<tr>
+    <th>과목</th>
+    <th>책제목</th>
+    <th>저자</th>
+    <th>출판사</th>
+</tr>
+<tr>
+    <td rowspan="3">웹프로그래밍</td>
+    <td>HTML5 웹프로그래밍 입문</td>
+    <td>임순범,박희민</td>
+    <td>생능</td>
+</tr>
+<tr>
+<td>소셜미디어 시대의 인터넷활용</td>
+<td>최윤절,임순범</td>
+<td>생능</td>
+</tr>
+<tr>
+    <td>What Is HTML5?</td>
+    <td>B.McLaughlin</td>
+    <td>O'Reilly</td>
+    </tr>
+<tr>
+    <th>합계</th>
+    <td colspan="3">3권</td>
+</tr>
+        </table>
+
+        <h3>Another Table</h3>
+
+        <table border="1"width="200" height="100">
+            <caption>표 길이 조정하기</caption>
+                <tr>
+                    <th width="50">A</th>
+                    <th width="150">2A</th>
+                    <th width="300">3A</th>
+                </tr>
+
+            </table>
+
+        <table border="1" width="200">
+          <caption>표 속의 표?</caption>
+          <tr height="50">
+            <td>
+                <table border="1"width="100">
+                    <th>A</th>
+                    <th>B</th>
+            </td>
+           </tr>
+                </table>
+              <td>C</td>
+              <td>D</td>
+          </tr>
+
+        <table border="0" width="200">
+            <caption>두께가 0인 표</caption>
+            <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+            </tr>
+            <tr>
+                <th>a</th>
+                <th>b</th>
+                <th>c</th>
+            </tr>
+    </body>
+
+    
+</html>
+
+<!--
+    -4. 기본적인 meta data 작성
+    -14. table의 선언과 border(선 굵기)선언
+    -15. caption은 표의 제목(설명)으로 표 위, 중앙에 정렬됩니다.
+    -23. rowspan : 하단으로 3칸 결합
+    -40. colspan : 우측으로 3칸 결합
+    -46. table,tr,td에 길이, 높이 입력시 조절 가능
+    -70. 두께 0(선 없음)으로 표현 가능
+-->

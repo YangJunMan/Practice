@@ -1,0 +1,58 @@
+div{
+width:790px;
+height:2480px;
+word-spacing: 3px;
+border-style:solid;
+border-width:1px;
+border-color:black;
+font-family: "Times New Roman";
+unicode-range: U+0041-005A, U+0061-007A;
+font-family: "함초롬바탕";
+unicode-range: U+AC00-D7A3
+}
+h3{
+word-spacing:4px;
+font-size:20px;
+margin-left:93px;
+margin-top:50px;
+margin-bottom:50px;
+}
+li{
+margin:12px;
+}
+li.bd{
+font-weight: bold;
+}
+ol.ua{
+list-style-type: upper-alpha;margin-left:-25px;
+}
+strong{
+text-decoration:underline;
+}
+p{
+margin-left:13px;
+}
+table{
+margin-top:20px;
+margin-bottom:20px;
+margin-left:8px;
+border-width:2px;
+border-collapse:collapse;
+text-align: center;
+}
+th{
+height:50px;
+}
+td{
+padding-top:10px;
+padding-bottom:11px;
+line-height:21px;
+}
+#th3{
+    height:45px;
+}
+#bc{
+background-color:rgb(217, 217, 217) ;
+}
+.pink1{color:#f596c2;}
+#이전페이지_absolute{position:absolute;top:2370px;left:8px;}

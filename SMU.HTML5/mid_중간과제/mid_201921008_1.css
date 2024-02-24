@@ -1,0 +1,68 @@
+div{
+    width:550px;
+    height:770px;
+    border-style:solid;
+    border-width:11px;
+    border-color:#ddecca;
+    font-family: "Times New Roman";
+    unicode-range: U+0041-005A, U+0061-007A;
+    font-family: "Malgun Gothic";
+    unicode-range: U+AC00-D7A3
+}
+
+h1 {
+    font-family:SEBANG GOTHIC;
+    margin-top:53px;
+    letter-spacing:-0.6px;
+    margin-left:-10px;
+    text-align:center;
+    line-height:45px;
+    text-shadow:2px 2px 1px #a7a7a7;
+}
+
+table{
+    border:0;
+    width:459px;
+    margin-left: 60px;               
+}
+
+td{
+    font-weight:550;
+    height:25px;
+    text-align: left;
+    font-family:malgun;
+    font-size: 15.3px;
+    letter-spacing:-1.2px;
+    word-spacing: -0.7px;
+}
+
+th{
+    font-weight:550;
+    text-align:center;
+    font-size: 16.1px;
+    word-spacing:0.6px;
+}
+
+p{
+    font-weight:550;
+    text-align: left;
+    font-family:malgun;
+    font-size: 15.3px;
+    letter-spacing:-0.8px;
+    word-spacing: -0.7px;
+    margin-left: 60px;
+}
+
+#선1_absolute{position:absolute;top:182.5px;left:82px;}
+#선2_absolute{position:absolute;top:343.5px;left:82px;}
+#로고1_absolute{opacity:0.7;position:absolute;top:160px;left:30px;}
+#로고2_absolute{opacity:0.7;position:absolute;top:321px;left:30px;}
+#로고3_absolute{opacity:0.17;position:absolute;top:550px;left:345px;}
+#상명대로고_absolute{position:absolute;top:742px;left:174px;}
+#다음페이지_absolute{position:absolute;top:700px;left:8px;}
+.pink1{color:#f596c2;}
+.yellow1{color:#feebb6}
+.yellow2{text-align:center;height:35px;margin-left:60px;background-color:#feebb6}
+.sky1{color:#b8e9ff}
+.blue2{text-align:center;height:30px;margin-left:60px;background-color:#082a76}
+.white{color:white}

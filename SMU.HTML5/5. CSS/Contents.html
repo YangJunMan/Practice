@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Style_Sheet</title>
+       <style type="text/css">
+            #w3c_static { position: static; }
+            #h5_static { position: static; 
+                top: 100px; 
+                left: 300px; }
+            #css_relative { position: relative; 
+                left: 80px;}
+            #h5_absolute { position: absolute; 
+                top: 205px; 
+                left: 100px; }
+            #css_fixed { position: fixed; 
+                top: 20px; 
+                right: 30px; }
+
+#w3c_z1{ z-index: 1 ; position: relative; top: 20px; left: 80px;}
+#h5_z2{ z-index: 2 ; position: relative; top: 5px; left: 45px; }
+#css_z3{ z-index: 3 ; position: relative; top: 5px; left: 10px; }
+#w3c_z9{ z-index: 9 ; position: relative; top: 20px; left: 80px; }
+#h5_z8{ z-index: 8 ; position: relative; top: 5px; left: 45px; }
+#css_z7{ z-index: 7 ; position: relative; top: 5px; left: 10px;}    
+
+#h5_op2 { opacity: 0.2; position: relative; top: 80px; left: 20px; }
+#h5_op3 { opacity: 0.3; position: relative; top: 80px; left: 50px; }
+#h5_op5 { opacity: 0.5; position: relative; top: 80px; left: 80px; }
+#h5_op7 { opacity: 0.7; position: relative; top: 80px; left: 110px; }
+#h5_op9 { opacity: 0.9; position: relative; top: 80px; left: 140px; }
+
+#h5_trans { transform: translate(30px,30px);
+border: thin solid; }
+#h5_scale { transform: scale(3, 1.5);
+border: thin solid; }
+#h5_rotate { transform: rotate(45deg);
+border: thin solid; }
+#h5_skew { transform: skew(30deg, 5deg);
+border: thin solid; }
+</style>
+        </head>
+
+        <body>
+            <h3>5.5
+                새로운 문서 표준 HTML5
+                <img src ="W3C_logo.gif" id="w3c_static" width="72" height="40">
+                </h3>
+                <p>
+                <p>
+                <img src ="H5_logo.gif" id="h5_static" width="54" height="66">
+                현재
+                W3C 에서 표준안 개발을 하고 있는 HTML5 는 차세대 웹문서 표준안으로 중략 )....
+                </p>
+                <h3> 5.5.1 HTML5의 탄생 배경 및 특징
+                <img src ="CSS3_ad.gif" id="css_relative " width="54" height="66">
+                <img src ="H5_logo.gif" id="h5_absolute" width="54" height="66">
+                </h3>
+                <img src ="CSS3_ad.gif" id="css_fixed" width="166" height="70">
+                <p>HTML 4.0
+                이 1997 년 발표된 이후 벌써 10 년 이상이 경과되었는데 , IT 업계 중략 )... </p>
+                <p>static은 기본적인 배치방식으로 텍스트가 순서대로 배치되는 것과 같이 순서대로 배치됨.</p>
+                <p>relative는 기존 static 방식을 사용했을 때 이미지가 배치되는 위치를 기준으로 위치 지정을 할 수 있다.</p>
+                <p>absolute는 상위 요소를 기준으로 위치 지정을 할 수 있다.  </p>
+                <p>fixed는 위치를 사용자의 디스플레이를 기준으로 상대적으로 위치를 고정할 수 있다.  </p>
+        
+                <h3>5.5새로운 문서 표준 HTML5 </h3>
+<img src ="W3C_logo.gif" id="w3c_z1" width="72" height="40">
+<img src ="H5_logo.gif" id="h5_z2" width="54" height="66">
+<img src ="CSS3_ad.gif" id="css_z3" width="54" height="66">
+<img src ="W3C_logo.gif" id="w3c_z9" width="72" height="40">
+<img src ="H5_logo.gif" id="h5_z8" width="54" height="66">
+<img src ="CSS3_ad.gif" id="css_z7" width="54" height="66">
+<p>z-index를 사용해서 이미지가 겹쳤을 때 순서를 정할 수 있다.</p>
+<img src ="H5_logo.gif" id="h5_op2" width="54" height="66">
+<img src ="H5_logo.gif" id="h5_op3" width="54" height="66">
+<img src ="H5_logo.gif" id="h5_op5" width="54" height="66">
+<img src ="H5_logo.gif" id="h5_op7" width="54" height="66">
+<img src ="H5_logo.gif" id="h5_op9" width="54" height="66">
+<p>opacity를 사용해서 이미지의 불투명도를 조절할 수 있다.</p>
+
+
+<table border="1">
+    <tr>
+    <td><p>translate(40px,40px);</p>
+    <img src ="H5_logo.gif" id="h5_trans" width="54" height="66"> </td>
+    <td><p>scale(3, 1.5);</p>
+    <img src ="H5_logo.gif" id="h5_scale" width="54" height="66"> </td>
+    <td><p>rotate(45deg)</p>
+        <img src ="H5_logo.gif" id="h5_rotate" width="54" height="66"> </td>
+        <td><p>skew(30deg, 5deg);</p>
+        <img src ="H5_logo.gif" id="h5_skew" width="54" height="66"> </td>
+</tr>
+    </table>
+    <p>CSS의 transform을 이용해서 이미지를 늘리거나, 이동하거나, 기울이거나 하는 등 변환시킬 수 있다. </p>
+</body>

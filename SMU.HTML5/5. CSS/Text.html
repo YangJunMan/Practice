@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Style_Sheet</title>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 19fbb6231a1dbc0fc84d94babc098196d8188065
+        <style type="text/css">
+            h3 { font-style:italic; }
+            p { font-family:"Times New Roman" "돋움" serif; line-height: 10pt }
+.red1 {color: red; font-style: italic; } /* red1 클래스는 빨간색 이탤릭체로 */
+strong.red1 {font-size: 12pt } /* strong 요소중 red1 클래스는 12pt 크기 */
+#next { color: blue; text-align: center} /* next 아이디는 파란색으로 칠하고, 가운데 정렬 */
+            
+h3:after { content: " (© sblim)"; font-size:10pt; text-shadow: 1px 1px 12px green }
+
+#first { text-align:left; letter-spacing: 2pt; word-spacing: 8pt } /* 좌측 정렬, 간격 조정 */
+#second { text-align:left; text-indent:2em; letter-spacing:-2pt; word-spacing:2pt}
+#third { text-align:right; }
+#fourth { text-align:center; }
+#cap { text-transform: capitalize; } /* 텍스트에 decoration, transform 하기 */
+#over{text-decoration: overline;}
+#thru{text-decoration:line-through;}
+#under{text-decoration: underline;}
+#upper { text-transform: uppercase; }
+#lower { text-transform: lowercase; } 
+    </style>             
+    </head>
+<body>
+    <h3>스타일시트 이해하기</h3>
+    <p>이 예제는 
+        <strong style="font-style:italic; color:red;"> CSS</strong>의 개념을 설명합니다.</p>
+    <p>다음 예제로 이어집니다.</p> 
+    <br><br>
+    <h3 class="red1">스타일시트 이해하기 2</h3>
+<p>이 예제는 <strong class="red1">CSS</strong>의 개념을 설명합니다.
+<br><span class="red1">클래스</span>와 ID로 스타일을 지정합니다.</p>
+<p id="next">다음 예제로 이어집니다.</p>
+<br><br>
+<h3><strong>CSS</strong> 문자관련 속성</h3>
+<p id="first">왼쪽정렬, 문자간격 3pt, 단어간격 8pt </p>
+<p id="second">왼쪽정렬, 들여쓰기 2글자, 문자간격 -2pt, 단어간격 2pt </p>
+<p id="third">오른쪽정렬, text-decoration : <span id="under"> underline </span>,
+<span id="over"> overline </span>, <span id="thru"> line-through </span> </p>
+<p id="fourth">가운데정렬, text-transform : <span id="cap"> capitalize </span>,
+<span id="upper"> uppercase </span> , <span id="lower"> Lowercase </span></p>
+</body>

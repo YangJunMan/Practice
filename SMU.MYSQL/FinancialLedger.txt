@@ -1,0 +1,63 @@
+2022-11
+
+Tiny MYSQL project
+
+Design data modeling that user and bank!
+(Design Entity Relationship Diagram)
+And make PROCEDURE that can fill DB and can active services of ledger.
+
+
+
+DATA MODELING
+
+Step 1 : Identity of Entities
+There are Bank-Account, UserId, Cards(debit and credit), Cash...
+
+Step 2 : Define the attributes
+Um.. I make up at least attributes in one Entity with related things
+
+Step 3 : Determine the relationships
+ex)
+ㅣㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+ㅣBank       
+ㅣand   ->  Bank_Account -> Cards..
+ㅣUser  
+ㅣㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+
+Step 4 : Specify the cardinalites
+One to N..  
+But very minimal funtionality are in this modeling.
+So its diffrent with real bank's relationships.
+:(
+
+Step 5 : Validate the data model
+Is there something inconsistencies things?
+um.. 
+I broke the rules of bank's relationships. 
+Sorry
+
+Step 6 : Translate the data model into a database schema
+yeah..
+
+Step 7 : Think what else to consider
+!!Exception handling of something like 'Null', Over spend money, error... etc.
+
+
+
+
+PROCEDURE
+
+Spending
+Income
+Open an account
+Deposit
+Withdrawal
+Account transfer
+Cash expenses
+Credit Card that pay after
+Debit Card that pay before
+Print Financial Ledger's lists
+Print expected payment amount
+ETC..
+

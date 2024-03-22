@@ -1,5 +1,8 @@
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 # HTML5
+
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
+
 상명대학교 소프트웨어학과 웹 프로그래밍 과목과 함께 HTML5의 작동 방식을 공부해 봅니다.
 
 

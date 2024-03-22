@@ -6,7 +6,7 @@
 
 ->mid_중간과제
 
-<img src="https://github.com/YangJunMan/Practice/blob/main/SMU.HTML5/mid_%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C/Original1.png" width="450" height="550"/>
+<img src="https://github.com/YangJunMan/Practice/blob/main/SMU.HTML5/mid_%EC%A4%91%EA%B0%84%EA%B3%BC%EC%A0%9C/Original1.png" width="250" height="350"/>
 
 Original 1,2,3,4사진을 html5으로 직접 구현합니다.
 

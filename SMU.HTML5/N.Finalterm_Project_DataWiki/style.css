@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.backi{ 
+    width:1047px;
+    height:80px;
+    background-image: url("Line.png"); 
+    margin-bottom: 9px;
+    margin-top:-20px;
+} 
+/*
+    사이트 상단 카테고리 부분
+*/
+.mainnotice{
+    float:left;
+    position:relative;
+    background-color: rgb(138, 205, 239);
+    padding-bottom:10px;
+    width:390px;
+}
+
+.mainnotice li{
+    line-height: 50px;
+}
+
+.mainfamous{
+    margin-top:10px;
+    padding-top:0.5px;
+    position:relative;
+    margin-left:400px;
+    background-color: bisque;
+    padding-bottom:10px;
+    width:646px;
+}
+
+.mainfamous li{
+    line-height: 50px;
+}
+
+.center{
+    position: relative;
+    width:1040px;
+    text-align: center;
+}
+/*
+    기본 nav 글씨체, 크기, 색상, 배경색 등
+*/
+nav{
+    min-width:1050px;
+}
+nav li{
+    text-align: center;
+    min-width:126px;
+}
+nav ul { list-style:none; 
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bolder; display: flex;
+    margin-left:-50px;
+}
+nav a { text-decoration:none; color:#000000; 
+    border:5px solid black;
+    border-style: hidden hidden solid hidden;
+    border-color: transparent; 
+}
+
+.sideimagel{
+    background-size: cover;
+    position:relative;
+    background-image: url("상명대로고.jpg"); 
+    width:230px;
+    height:80px;
+}
+
+.sideimager{
+    background-size:contain;
+    position:relative;
+    background-image: url("상명대SW중심대학.png"); 
+    width:200px;
+    height:60px;
+    size:cover;
+    background-repeat : no-repeat;
+    margin-top:20px;
+}
+
+/*
+    DataWiki의 왼쪽 데이터 리스트 글씨체
+*/
+.lfloat{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    padding-bottom: 20px;
+    padding-left:10px;
+    float:left;
+    border:4px #fff;
+    border-style: inset;
+    border-bottom:rgb(234, 234, 234);
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 300;
+    font-weight: 400;
+    color:#444;
+    min-width:247px;
+    max-width:247px;
+    background-color:rgb(241, 248, 255);
+}
+.rfloat{
+    margin-left:0px;
+    padding-left:12px;
+    padding-right: 14px;
+    padding-top:-10px;
+    float:left;
+    left:300px;
+    width:750px;
+    height:1000px;
+    border:none;
+    border:4px #fff;
+    border-right:rgb(234, 234, 234);
+    border-bottom:rgb(234, 234, 234);
+    border-style: inset;
+    border-radius:10px ;
+    background-color: #fff;
+}
+.dataset{
+    font-weight:1000;
+    border-bottom: black;
+    color: #444;
+}
+.WikiInput{
+    right:0;
+   margin-top: 5px;
+}
+select {
+    font-family: "Noto Sansf KR", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(98, 98, 98);
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+}
+.infoiframe{
+    position:absolute;
+    bottom:5px;
+    width:790px;
+    height:550px;
+    overflow-y: hidden;
+    border:none;
+    border:2px rgb(177, 177, 177);
+    border-radius:5px;
+    background-color:rgb(106, 157, 209);
+}
+.infobk{
+    background-color:#fff ;
+}
+.infolink{
+    margin-left:10px;
+}
+.sharehub{
+    position:relative;
+    float:left;
+    margin-left:0px;
+    width:1036px;
+    border:5px ridge rgb(65, 40, 16);
+    height:700px;
+    border-radius:10px ;
+    background-color: #fff;
+}
+.shareiframe{
+    position:relative;
+    margin-top:-500px;
+    float:right;
+    width:700px;
+    height:580px;
+    margin-right:20px;
+}
+.shareli{
+    margin-top:30px;
+}
+.shareli li{
+    font-size: large;
+    line-height:40px;
+}
+
+
+.topcolor{
+    background-color:rgb(121, 157, 206);
+    width:1038px;
+    line-height: 60px;
+    margin-left:-1px;
+    margin-top:-1px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    text-align: 800px;
+    font-size:x-large;
+}
+/*
+    Forum의 글씨체, 크기, 색상, 배경색 등
+*/
+.forumiframe{
+    width:99%;
+    height:91%;
+    border:0;
+}
+
+#Forum{
+    font-size: 16;
+    margin-top: 28px;
+    line-height: 26px;
+    margin-left:23px;
+
+}
+
+
+
+
+/*
+    슬라이더 부분
+*/
+a{
+    border:1px solid black;
+    text-decoration:none; color:#000000; border-style: hidden hidden solid hidden;
+    border-color: transparent; 
+}
+
+.slider {
+    border: 2px solid rgba(25, 75, 182, 0.329);
+    border-radius: 3px;
+    width: 1043px;
+    height: 500px;
+    overflow: hidden;
+}
+.slides {
+    height: 100px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    transition: 1s;
+}
+.slide img {
+    width: 1043px;
+    height: 500px;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+#radio5:checked ~ .first{
+    margin-left: -400%;
+}
+
+html body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+}
+/*
+    사이트 하단 footer 부분
+*/
+footer {
+    width: 800px;
+    position: relative; 
+    margin-top:21px;
+}
+.mainbottom li{
+    margin-left:20px;
+}
+.mainbottomimage{
+    height:150px;
+    width:1050px;
+    background-color: rgba(34, 93, 175, 0.547);
+    
+}
+
+#wrapper{
+    width: 1050px;
+    margin:0 auto;
+    background-image:url("backgroundimg2.png");
+    background-size:cover;
+}

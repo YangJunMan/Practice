@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--
+        head부분
+    -->
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style-jss.js"></script>
+<script>
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 5){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+</head>
+<!--
+        body부분
+    -->
+<body class="backcolor">
+    
+    <div id="wrapper">
+    <div>
+        <header class="center">
+            <a href="Main.html"><h1>상명 Data Wiki</h1></a>
+        
+            <nav>
+                <ul>
+                    <a href="Main.html"><li class="sideimagel"></li></a>
+                    <li class="navbotton"><a href="Main.html" target="display_area">Home</a></li>
+                    <li class="navbotton"><a href="DataWiki.html" target="display_area">Data Wiki</a></li>
+                    <li class="navbotton"><a href="ShareHub.html" target="display_area">Share Hub</a></li>
+                    <li class="navbotton"><a >Colosseum</a></li>
+                    <li class="navbotton"><a href="forum.html" target="display_area">Forum</a></li>
+                    <a href="https://swai.smu.ac.kr/"><li class="sideimager"></li></a>
+                </ul>
+            </nav>
+    </header>
+<!--
+        slider 부분
+    -->
+<div class="backi">
+</div>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" id="radio1">
+                    <input type="radio" id="radio2">
+                    <input type="radio" id="radio3">
+                    <input type="radio" id="radio4">
+                    <input type="radio" id="radio5">
+                    <div class="slide first"> <img src="01.png" alt=""> </div>
+                    <div class="slide">       <img src="02.png" alt=""> </div>
+                    <div class="slide">       <img src="03.png" alt=""> </div>
+                    <div class="slide">       <img src="04.png" alt=""> </div>
+                    <div class="slide">       <img src="05.png" alt=""> </div>
+                </div>
+            </div>
+            <div>
+<div class="mainnotice">
+    <ul>
+        <li><h2>공지사항</h2></li>
+        <ul>
+            <li>추가 데이터셋</li>
+            <ul>
+            <li id="DataWikiNotice" ></li>
+            </ul>
+        </ul>
+        <ul>
+            <li>경진대회</li>
+            <ul>
+            <li id="ColosseumNotice"></li>
+            </ul>
+        </ul>
+    </ul>
+</div>
+<!--
+        게시글 목록 미리보기
+    -->
+<div class="mainfamous">
+        <ul>
+            <li><h2>인기 많은 글</h2></li>
+            <ul>
+                <li>DataWiki</li>
+                <ul>
+                <li id="DataWikiID" ></li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Colosseum</li>
+                <ul>
+                <li id="ColosseumID"></li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Forum</li>
+                <ul>
+                <li id="ForumID"></li>
+                </ul>
+            </ul>
+        </ul>
+</div>
+</div>
+<!--
+        인기 게시글 목록 미리보기. 조회수 기준 상위 3개
+    -->
+<script>
+var sortingField="num";
+DataInfo.sort(function(a,b){
+return b[sortingField]-a[sortingField];
+});
+for(i=0;i<3;i++){
+        var a='<li>&nbsp'+DataInfo[i].name+' ['+DataInfo[i].category+']</li>';
+    var b= document.getElementById('DataWikiNotice');
+    b.innerHTML=b.innerHTML+a;
+}
+
+for(i=1;i<3;i++){
+        var a='<li>&nbsp'+Colosseum[i].title+'<br> ['+Colosseum[i].startdate+' ~ '+Colosseum[i].enddate+']</li>';
+    var b= document.getElementById('ColosseumNotice');
+    b.innerHTML=b.innerHTML+a;
+}
+
+
+for(i=0;i<3;i++){
+        var a='<li>&nbsp'+Colosseum[i].title+' ['+Colosseum[i].startdate+' ~ '+Colosseum[i].enddate+']</li>';
+    var b= document.getElementById('ColosseumID');
+    b.innerHTML=b.innerHTML+a;
+}
+
+var sortingField="views";
+Board.sort(function(a,b){
+return b[sortingField]-a[sortingField];
+});
+for(i=0;i<3;i++){
+        var a='<li>&nbsp'+Board[i].title+' ['+Board[i].date+']</li>';
+    var b= document.getElementById('ForumID');
+    b.innerHTML=b.innerHTML+a;
+}
+
+var sortingField="instances";
+DataInfo.sort(function(a,b){
+return a.instances > b.instances ? -1 : a.instances < b.instances ? 1 : 0;
+});
+for(i=0;i<3;i++){
+    var a='<li>&nbsp'+DataInfo[i].name+' ['+DataInfo[i].category+']</li>';
+    var b= document.getElementById('DataWikiID');
+    b.innerHTML=b.innerHTML+a;
+}
+
+</script>
+
+</body>
+</div>
+<p style="clear:both"></p>
+<!--
+        footer부분
+    -->
+<footer>
+
+<div class="mainbottom">
+        <nav class="mainbottomimage">
+            <br>
+            <ul>
+                    <li>개인정보처리방침</li>
+                    <li>이메일주소무단수집거부</li>
+            </ul>
+            <ul>
+                <li><a href="music.html" target="display_area">서울시 종로구 홍지문 2길</a></li>
+        </ul>
+        </nav>
+</div>
+</footer>
+</html>

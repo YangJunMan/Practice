@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="style-jss.js"></script>
+</head>
+
+<body>
+    <p id="Forum"></p>
+    <script>
+        for(i=1;i<Board.length+1;i++){
+        var a='['+i+']&nbsp[제목 : '+Board[i].title+']&nbsp[내용 : '+Board[i].content+']&nbsp[작성일 : '+Board[i].date+']&nbsp[추천수 : '+Board[i].views+']<br><br>';
+        var b= document.getElementById('Forum');
+        b.innerHTML=b.innerHTML+a;
+    }
+// [{title:"안녕하세요",content:"Datawiki에 오신 것을 환영합니다.",
+// date:"2022.05.01",views:"10"}
+    </script>
+</div>
+</body>

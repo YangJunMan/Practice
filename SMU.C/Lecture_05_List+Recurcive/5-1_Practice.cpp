@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <iostream>
-#include "½Ç½À5-1.h"
+#include "5-1.h"
 using namespace std;
 
 int main() {

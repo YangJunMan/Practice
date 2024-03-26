@@ -1,3 +1,5 @@
-# SMU.JAVA
+# JAVA
 
-상명대학교 객체지향프로그래밍 과목과 함께 JAVA의 작동 방식을 공부해 봅니다.
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+
+🔹객체지향 프로그래밍 과목과 함께 Java의 객체지향과 상속에 대한 특징을 공부해 봅니다.

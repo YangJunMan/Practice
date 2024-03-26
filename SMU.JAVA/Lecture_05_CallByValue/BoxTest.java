@@ -5,12 +5,12 @@ public class BoxTest {
 		Box box1=new Box(50,30,40);
 		Box box2=new Box(50,30,40);
 		
-		System.out.println("box1°ú box2´Â °°³ª¿ä? : "+box1.isSameBox(box2));
+		System.out.println("box1ê³¼ box2ì˜ í¬ê¸°ê°€ ê°™ì€ê°€ìš”? : "+box1.isSameBox(box2));
 		
 		Box box3=new Box(50,30,40);
 		Box box4=new Box(40,30,40);
 		
-		System.out.println("box3°ú box4´Â °°³ª¿ä? : "+box3.isSameBox(box4));
+		System.out.println("box3ê³¼ box4ì˜ í¬ê¸°ê°€ ê°™ì€ê°€ìš”? : "+box3.isSameBox(box4));
 		
 
 	}

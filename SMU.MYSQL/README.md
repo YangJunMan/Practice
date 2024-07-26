@@ -6,7 +6,7 @@
 
 ->final_FinancialLedger
 
-<img src="https://github.com/YangJunMan/Practice/blob/main/SMU.MYSQL/FinancialLedger/%EC%96%91%EC%A4%80%ED%98%81_ERD_Picture.png" width="500" height="250"/>
+<img src="https://github.com/YangJunMan/Practice/blob/main/SMU.MYSQL/FinancialLedger/%EC%96%91%EC%A4%80%ED%98%81_ERD_Picture.pn" width="500" height="250"/>
 
 ERD을 이용한 데이터모델링과 함께
 

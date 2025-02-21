@@ -8,6 +8,7 @@ public class Bank {
 
 // hashmap을 사용하여 계좌 정보를 저장
 // hashmap이란? HashMap은 데이터를 저장할 때 키(Key)와 밸류(Value)가 짝을 이루어 저장된다.
+    // 이후 Key에는 Checking account의 경우 C + 000~999 가 KEY로 주어진다.
     private HashMap<String, Account> accounts = new HashMap<>();
 
     public Bank(Account account, HashMap<String, Account> accounts) {
@@ -66,7 +67,7 @@ public class Bank {
                 System.out.println("Account Number: " + account.getAccountNumber());
                 System.out.println("Initial Balance: " + account.getBalance());
 
-                account.withdraw(amount);
+                account.withDraw(amount);
 
                 System.out.println("Withdrawl amount " + amount);
                 System.out.println("New Balance: " + account.getBalance());

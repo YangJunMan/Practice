@@ -1,6 +1,6 @@
 package Basic.review.BankAccount;
 
-public class Account extends AccountInterface{
+public class Account implements AccountInterface{
     private String accountNumber;
     private double balance;
 
@@ -25,13 +25,15 @@ public class Account extends AccountInterface{
         this.balance = balance;
     }
 
+    @Override
     public void deposit(double amount) {
         balance += amount;
     }
 
-    public void withdraw(double amount){}
+    @Override
+    public void withDraw(double amount){}
 
-
+    @Override
     public void applyInterest(){}
 
 

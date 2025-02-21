@@ -21,7 +21,7 @@ public class CheckingAccount extends Account{
 
     //methods
     @Override
-    public void withdraw(double amount) {
+    public void withDraw(double amount) {
         if (getBalance() >= amount) {
             setBalance(getBalance()- amount) ;
         }else{

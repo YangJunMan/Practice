@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/c++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 
 
-상명대학교 소프트웨어학과 자료구조 과목과 함께 c++의 포인터, 객체지향, 자료 저장 방식 등을 공부해 봅니다.
+소프트웨어학과 자료구조 과목과 함께 c++의 포인터, 객체지향, 자료 저장 방식 등을 공부해 봅니다.
 
 
 

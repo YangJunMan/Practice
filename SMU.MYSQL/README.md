@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
 
-상명대학교 소프트웨어학과 데이터베이스 과목과 함께 MySQL의 작동 방식을 공부해 봅니다.
+소프트웨어학과 데이터베이스 과목과 함께 MySQL의 작동 방식을 공부해 봅니다.
 
 ->final_FinancialLedger
 
